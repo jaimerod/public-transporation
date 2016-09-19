@@ -1,0 +1,64 @@
+/**
+ * This page contains the default navigation menu styling
+ */
+nav {
+  ul {
+    border-left: 1px solid $black;
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+
+      a {
+        background: $white;
+        border: 1px solid $black;
+        border-left: 0;
+        color: $black;
+        display: block;
+        padding: 8px 24px;
+        text-align: center;
+        text-decoration: none;
+        width: 150px;
+      }
+    }
+
+    > ul li:hover > ul {
+      display: block;
+    }
+
+    ul {
+      display: none;
+      margin: 0 0 0 -1px;
+      position: absolute;
+
+      li {
+        clear: both;
+        float: left;
+
+        a {
+          margin-top: -1px;
+          min-width: 304px;
+          text-align: left;
+        }
+      }
+
+      ul {
+        left: 100%;
+        top: -1px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    ul {
+      li {
+        a {
+          width: auto;
+        }
+      }
+    }
+  }
+}

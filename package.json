@@ -1,0 +1,39 @@
+{
+  "name": "public-transportation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^3.1.2",
+    "lodash": "^3.10.1",
+    "moment": "^2.11.1",
+    "node-uuid": "^1.4.7",
+    "react": "^0.14.2",
+    "react-datetime": "^2.0.3",
+    "react-dom": "^0.14.2",
+    "react-router": "^2.0",
+    "whatwg-fetch": "^0.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1",
+    "uglifyify": "^3.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
